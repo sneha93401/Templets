@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar_1 {
+    width: 100%;
+    height: 10.50%;
+    background-color:rgb(19,25,33);
+    
+}
+
+.azn_logo img{
+    width: 120px;
+    position: relative;
+    top: 18px;
+    left: 15px;
+    cursor: pointer;
+}
+.azn_logo img:hover{
+    border: 1px solid white;
+  /* yaha mujhe border ko sahi krna h    */
+}
+
+.azn_logo span{
+    color: white;
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+    font-family:  sans-serif;
+    font-weight: bold;    
+}
+
+.address{
+    display: flex;
+    color: white;
+    
+}
+.address h5{
+    position: relative;
+    left: 185px;
+    bottom: 30px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.address h4{
+    position: relative;
+    left: 20px;
+    bottom: 13px;
+}
+.address img{
+    width: 25px;
+    position: relative;
+    right: 112px;
+    bottom: 20px;
+}
+
+.search_container{
+    position: relative;
+    left: 400px;
+    bottom: 69px;
+    /* background-color: brown; */
+    width: 40%;
+    margin-left:5px ;
+}
+
+
+.search_icon img{
+    width:35px;
+    position: relative;
+    left: 470px;
+    bottom: 25px;
+    height: 35px;
+    background-color:rgb(254,189,105);
+    cursor: pointer;
+}
+.search_container select{
+    position: relative;
+    top: 10px;
+    width: 105px;
+    height: 35px;
+    border: none;
+    background-color: rgb(230,230,230);
+    cursor: pointer;
+}
+
+.search_container input{
+    height: 35px;
+    width: 370px;
+    position: relative;
+    right: 4px;
+    top: 10px;
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lanuage {
+    text-align: center;
+    position: relative;
+    bottom: 93px;
+    left: 330px;
+}
+.lanuage img{
+    width: 28px;
+    position: relative;
+    bottom: 30px;
+   
+}
+.lanuage select{
+    position: relative;
+    bottom: 40px;
+    width: 70px;
+    height: 24px;
+    border: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.lanuage select option{
+    color: black;
+}
+
+.signin{
+    text-align: center;
+    position: relative;
+    left: 450px;
+    bottom: 160px;
+    color: white;
+    font-size: 12px;
+}
+
+.signin p {
+    position: relative;
+    right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.returns {
+    text-align: center;
+    position: relative;
+    left: 550px;
+    bottom: 192px;
+    color: white;
+    font-size: 12px;
+}
+.returns p{
+    position: relative;
+    right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopping_img{
+    text-align: center;
+    position: relative;
+    left: 610px;
+    bottom: 230px;
+    color: white;
+    font-size: 12px; 
+}
+
+.shopping_img img{
+    width: 50px;
+}
+.shopping_img img {
+    position: relative;
+    right: 8px;
+}
+
+.shopping_img h3{
+    position: relative;
+    left: 23px;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+.navbar_2 {
+    /* width: 99vw; */
+    height: 7%;
+    background-color: rgb(35,47,62);
+}
+.list{
+    width: 65%;
+}
+.list ul {
+    display: flex;
+    color: white;
+   justify-content: space-evenly;
+}
+
+.list ul li{
+    list-style: none;
+    position: relative;
+    top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    /* transition: cubic-bezier(0.215, 0.610, 0.355, 1); */
+}
+/* hover effect not working */
+/* .list ul li :hover {
+border: 1px solid white;
+} */
+
+.shoppingAap img  {
+    width: 90px;
+    position: relative;
+    left: 880px;
+    bottom: 25px;
+}
+
+.shoppingAap h3 {
+    position: relative;
+    left: 950px;
+    bottom: 65px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar_3{
+    width: 100vw;
+    height: 7%;
+    background-color: rgb(255, 255, 255);
+   border-bottom: 1px solid rgb(228, 223, 223);
+}
+.f-list {
+    width: 70%;
+}
+
+.f-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 160px;
+    bottom: 15px;
+}
+.f-list ul li {
+    color: rgb(49, 47, 47);
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Azn_fashion h2 {
+    position: relative;
+    left: 14px;
+    top: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rest{
+    text-align: center;
+    position: relative;
+    left: 520px;
+    bottom: 40px;
+    
+}
+
+.rest h4 {
+    color: rgba(81, 124, 234, 0.868);
+    font-size: 18px;
+}
+.rest p {
+    color: rgb(49, 47, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 4px;
+}
+
+.navbar_4{
+    width: 100vw;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+}
+.navbar_4 img{
+    width: 645px;
+    /* display: flex; */
+}
+
+.Grid_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.women_clothing2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 10px;
+}
+.women_clothing1 h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.women_clothing1 img{
+    width: 230px;
+    margin-left: 15px;
+}
+
+.men_clothing2{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    margin-top: 20px;
+    
+}
+
+.men_clothing2 img{
+    width: 230px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.men_clothing1{
+    height: 350px;
+    /* background-color: brown; */
+    
+
+}
+
+.men_clothing1 h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+    
+}
+
+.men_footwear2{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    margin-top: 23px;
+    
+}
+.men_footwear2 img{
+    width: 230px;
+    margin-left: 15px;
+}
+.men_footwear1 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.slipper2{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    margin-top: 28px;
+}
+
+.slipper2 img{
+    width: 230px;
+    margin-left: 15px;
+}
+
+.slipper1 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+
