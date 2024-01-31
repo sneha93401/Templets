@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bulding1.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+    transition: ease;
+    color: black;
+}
+
+ li  :hover{
+    color: cornflowerblue;
+}
+
+.btn {
+    background-color:rgb(111, 111, 212) ;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    right: 100px;
+    border: none;
+}
+
+.grid_form {
+    display: grid;
+    grid-template-columns: auto auto ;
+    overflow: hidden;
+}
+
+.grid_form .content_cl {
+    position: relative;
+    left: 64px;
+    top: 120px;
+    width: 40vw;
+    height: 80vh;
+    line-height: 70px;
+    background-color: rgba(255, 255, 255, 0.563);
+    text-align: center;
+
+}
+
+.content_cl .dora {
+    font-size: 40px;
+    color: rgb(111, 111, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.content_cl .span {
+    font-size: 40px;
+    color: rgb(111, 111, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    /* letter-spacing: 2px; */
+    word-spacing: 30px;
+} 
+
+.content_cl .spa {
+    position: relative;
+    bottom: 35px;
+    word-spacing: 70px;
+    font-weight: bold;
+}
+
+.h2_e {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.form_cl{
+    position: relative;
+    top: 120px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.794);
+    height: 80vh;
+    width: 25vw;
+    line-height: 70px;
+}
+.form_cl .inp {
+    width: 200px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 10px 0px,1px 2px 3px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form_cl .btn_cl {
+    width: 260px;
+    height: 50px;
+    background-color:rgb(111, 111, 212) ;
+    border: none;
+    cursor: pointer;
+    transition: ease;
+    transition-duration: 1s;
+}
+.btn_cl:hover{
+    background-color: rgba(165, 79, 42, 0.435);
+}
+
+
+/* 2nd page */
+
+.about_content {
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.grid_contain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.con1 {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;    
+}
+
+.con2 p {
+    position: relative;
+    top: 60px;
+    left: 90px;
+    line-height: 30px;
+    /* font-family:'Segoe UI'; */
+   
+   
+}
+.con2 .head{
+    position: relative;
+    left: 90px;
+    
+    top: 20px;
+    
+}
+
+.con2 .button {
+    position: relative;
+    top: 90px;
+    left: 100px;
+    width: 70px;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(111, 111, 212);
+    border: none;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+/* 3rd page  */
+
+.conference_contain {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(216, 228, 113, 0.342);
+
+}
+
+.grid_conference {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.con_head {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color:  rgb(111, 111, 212);
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* 4th page  */
+
+.client_container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid_client {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap:10px ; */
+    margin: 20px;
+    box-shadow: 1px 2px 20px 2px,1px 2px 3px 4px;
+    position: relative;
+    top: 30px;
+    height: 80vh;
+    
+}
+
+.grid1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 30px; 
+    text-align: center;
+    
+    background-color: rgba(137, 43, 226, 0.33);
+}
+ 
+.grid1 img {
+    position: relative;
+    left: 70px;
+    box-shadow:1px 2px 5px 2px ;
+    
+}
+.grid1 span {
+    font-family:'Segoe UI';
+}
+
+.grid1 p {
+    color: black ;
+    font-family:'Segoe UI';
+    font-weight: bold;
+}
+
+.head1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(111, 111, 212) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
